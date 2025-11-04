@@ -6,42 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thailand</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- First Section -->
-    <section class="container d-flex flex-column justify-content-center align-items-center vh-100 mb-5">
-        <div class="row mb-5">
-            <div class="col">
-                <img src="thailand.jpg" alt="thailand" class="img-fluid rounded">
-                <h1 class="caption mt-3">Thailand — Land of Smiles</h1>
-                <p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces,
-                    ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an
-                    ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun,
-                    Wat Pho and the Emerald Buddha Temple (Wat Phra Kaew).</p>
-                <p class="mb-5" style="margin-bottom: 1000px;">
-                    It's the "Land of Smiles" and "Land of the Free": Thailand is known for its friendly people and is
-                    the only Southeast Asian country that was never colonized by Europeans. Its name, "Prathet Thai,"
-                    translates to "land of the free".
-                </p>
-
-            </div>
+    <!-- Hero Section -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="container">
+            <img src="thailand.jpg" alt="Thailand landscape" class="hero-img shadow-lg rounded">
+            <h1 class="caption mt-4">Thailand — Land of Smiles</h1>
+            <p class="lead mt-3">
+                Thailand is a Southeast Asian country known for tropical beaches, opulent royal palaces,
+                ancient ruins, and ornate temples displaying figures of Buddha. In Bangkok, the capital,
+                an ultramodern cityscape rises beside quiet canalside communities and the iconic temples
+                of Wat Arun, Wat Pho, and the Emerald Buddha Temple (Wat Phra Kaew).
+            </p>
+            <p>
+                It's the “Land of Smiles” and “Land of the Free”: Thailand is known for its friendly people
+                and is the only Southeast Asian country never colonized by Europeans. Its name,
+                “Prathet Thai,” translates to “land of the free.”
+            </p>
         </div>
     </section>
 
-    <!-- Second Section -->
-    <div class="divider-wrapper">
-    </div>
-    <section class="container my-7 pt-30 pb-5" style="background-color: #faebd7;">
-        <div class="row">
-            <div class="section-divider my-5"></div>
-            <h2 class="mb-4 text-center">Popular Destinations</h2>
+    <!-- Divider -->
+    <div class="section-divider"></div>
 
-            <div class="row g-4">
-                <div class="col-md-3">
+    <!-- Popular Destinations -->
+    <section class="popular-destinations py-5">
+        <div class="container">
+            <h2 class="text-center">Popular Destinations</h2>
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-md-3 col-sm-6">
                     <div class="card h-100 shadow-sm">
                         <img src="bangkok.jpg" class="card-img-top" alt="Bangkok">
                         <div class="card-body">
@@ -51,7 +50,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="card h-100 shadow-sm">
                         <img src="chiang-mai.jpg" class="card-img-top" alt="Chiang Mai">
                         <div class="card-body">
@@ -61,9 +60,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="card h-100 shadow-sm">
-                        <img src="phuket.jpg" class="card-img-bottom" alt="Phuket">
+                        <img src="phuket.jpg" class="card-img-top" alt="Phuket">
                         <div class="card-body">
                             <h5 class="card-title">Phuket</h5>
                             <p class="card-text">Thailand’s tropical paradise known for its beaches and nightlife.</p>
@@ -71,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="card h-100 shadow-sm">
                         <img src="ayutthaya.jpg" class="card-img-top" alt="Ayutthaya">
                         <div class="card-body">
@@ -80,12 +79,130 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxI" crossorigin="anonymous"></script>
+    <div class="section-divider2"></div>
+
+    <section class="Delicacy py-5">
+        <div class="container">
+            <h2 class="text-center">Thai Cuisine</h2>
+            <p class="desc text-center">
+                Known for its balance of sweet, spicy, sour, and salty flavors, Thai cuisine reflects the rich culinary
+                traditions of Thailand.
+            </p>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="MangoStickyRice.jpg" class="card-img-top" alt="Mango Sticky rice">
+                        <div class="card-body">
+                            <h5 class="card-title">Mango Sticky Rice</h5>
+                            <p class="card-text">
+                                A traditional Thai dessert made with glutinous rice, fresh mango slices, and coconut
+                                milk. The sticky rice is cooked with coconut milk and sugar, giving it a rich and
+                                creamy texture that pairs perfectly with the sweet and juicy mango.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="pad-thai.jpg" class="card-img-top" alt="Pad Thai">
+                        <div class="card-body">
+                            <h5 class="card-title ">Pad Thai</h5>
+                            <p class="card-text">
+                                A stir-fried rice noodle dish commonly served as street food and at casual local
+                                eateries in Thailand. It typically includes ingredients like shrimp, tofu, peanuts,
+                                scrambled egg, and bean sprouts, all flavored with tamarind pulp, fish sauce, dried
+                                shrimp,
+                                garlic, red chili pepper, and palm sugar.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="tom-yum.jpg" class="card-img-top" alt="Tom Yum Goong">
+                        <div class="card-body">
+                            <h5 class="card-title">Tom Yum Goong</h5>
+                            <p class="card-text">
+                                A hot and sour Thai soup usually cooked with shrimp. The soup is characterized by its
+                                distinct hot and sour flavors, with fragrant spices and herbs generously used in the
+                                broth,including lemongrass.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider3"></div>
+
+    <section class="event py-5">
+        <div class="container">
+            <h2 class="text-center">Cultural Highlights</h2>
+            <p class="desc text-center">
+                Thailand boasts a rich cultural heritage with vibrant festivals, traditional dance, and intricate
+                craftsmanship.
+            </p>
+            <div class="row g-4 justify-content-center">
+
+                <div class="festival col-md-4 col-sm-6">
+                    <img src="loy-krathong-festival.jpg" class="card-img-top" alt="Loy Krathong Festival">
+                </div>
+                <div class="col">
+                    <b style="font-size: 2rem;">Loy-Krathong Festival</b>
+                    <p class="mt-2 text-center">
+                        Celebrated annually on the full moon night of the 12th lunar
+                        month, this festival involves floating decorated baskets (krathongs) on rivers and lakes to pay
+                        respect to the water goddess, cultural performances like traditional music and dance, beauty
+                        pageants, and, in some regions like Chiang Mai, releasing sky lanterns (which is part of the
+                        related Yi Peng festival).
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="festival col-md-4 col-sm-6">
+                    <img src="Yi Peng.jpg" class="card-img-top" alt="Yi Peng Lantern Festival">
+                </div>
+                <div class="col">
+                    <b style="font-size: 2rem;">Yi Peng Lantern Festival</b>
+                    <p class="mt-2 text-center">
+                        Celebrated in northern Thailand, particularly in Chiang Mai, this
+                        festival features the release of thousands of paper lanterns into the sky, symbolizing the
+                        letting go of misfortunes and making wishes for the future. Today, Yi Peng has evolved into a
+                        large cultural event that includes parades, traditional music, dancing, and other performances,
+                        in addition to the lantern releases.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="festival col-md-4 col-sm-6">
+                    <img src="Songkran.jpg" class="card-img-top" alt="Songkran Festival">
+                </div>
+                <div class="col">
+
+                    <b style="font-size: 2rem;">Songkran Festival</b>
+                    <p class="mt-2 text-center">
+                        Celebrated as the Thai New Year in April, this festival is famous for
+                        its water fights, where people splash water on each other as a symbol of cleansing and renewal.
+                        The word "Songkran" comes from Sanskrit and means "to move forward" or "to pass," symbolizing a
+                        fresh start. Beyond the public water fights, ancient rituals like gently pouring water on Buddha
+                        images are performed to wash away misfortune and bring good luck for the new year.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
